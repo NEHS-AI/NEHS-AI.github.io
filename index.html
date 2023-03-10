@@ -20,7 +20,7 @@ body, html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("image/shame2.jpg");
+  /*background-image: url("image/shame2.jpg");*/
   min-height: 100%;
 }
 
@@ -68,14 +68,17 @@ body, html {
     <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
     <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
     <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
-  </div> 
+  </div>
+  
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <p><span class="w3-large">本網站由 孫旖岑 謝昀傑 共同製作</span></p>
+    <!--<i class="fa fa-facebook-official w3-hover-opacity"></i>-->
     <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <!--<i class="fa fa-snapchat w3-hover-opacity"></i>-->
+    <i class="fa fa-envelope w3-hover-opacity"></i>
+    <!--<i class="fa fa-youtube w3-hover-opacity"></i> <a href="https://www.youtube.com/@th-og4gc" ></a>-->
+    <button onclick=link="https://www.youtube.com/@th-og4gc"><i class="fa fa-youtube w3-hover-opacity"></i></button>
+    <!--<i class="fa fa-linkedin w3-hover-opacity"></i>-->
   </div>
 </header>
 
@@ -144,13 +147,24 @@ body, html {
 <!-- Team Section -->
 <div class="w3-container" style="padding:128px 16px" id="team">
   <h3 class="w3-center">組別</h3>
-  <p class="w3-center w3-large">請依組別做篩選</p>
+  <p class="w3-center w3-large">請選擇您要查詢簡報與影片的組別</p>
   <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+        <!--<img src="/w3images/team4.jpg" alt="Dan" style="width:100%">-->
         <div class="w3-container">
-          <h3>John Doe</h3>
+          <h3><i class="fa fa-book"> </i>總覽</h3>
+          <p class="w3-">Designer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <!--<img src="/w3images/team2.jpg" alt="John" style="width:100%">-->
+        <div class="w3-container">
+          <h3><i class="fa fa-compass"> </i>物理組</h3>
           <p class="w3-opacity">CEO & Founder</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
           <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
@@ -159,9 +173,9 @@ body, html {
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <!--<img src="/w3images/team1.jpg" alt="Jane" style="width:100%">-->
         <div class="w3-container">
-          <h3>Anja Doe</h3>
+          <h3><i class="fa fa-flask"> </i>化學組</h3>
           <p class="w3-opacity">Art Director</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
           <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
@@ -170,9 +184,9 @@ body, html {
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+        <!--<img src="/w3images/team3.jpg" alt="Mike" style="width:100%">-->
         <div class="w3-container">
-          <h3>Mike Ross</h3>
+          <h3><i class="fa fa-bug"> </i>生物組</h3>
           <p class="w3-opacity">Web Designer</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
           <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
@@ -181,9 +195,20 @@ body, html {
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
+        <!--<img src="/w3images/team4.jpg" alt="Dan" style="width:100%">-->
         <div class="w3-container">
-          <h3>Dan Star</h3>
+          <h3><i class="fa fa-calculator"> </i>數學組</h3>
+          <p class="w3-">Designer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <!--<img src="/w3images/team4.jpg" alt="Dan" style="width:100%">-->
+        <div class="w3-container">
+          <h3><i class="fa fa-desktop"> </i>資訊組</h3>
           <p class="w3-">Designer</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
           <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
