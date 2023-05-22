@@ -219,7 +219,7 @@ textarea {
 /* End extract */
 html,
 body {
-    font-family: Verdana, sans-serif;
+    font-family: 'Noto Serif TC', sans-serif;
     font-size: 15px;
     line-height: 1.5
 }
@@ -274,7 +274,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family:  "Times New Roman", Times, serif;
+    font-family:  "Noto Serif TC", Times, serif;
     font-weight: 400;
     margin: 10px 0
 }
