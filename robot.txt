@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /subject/
+Disallow: /js/
+Disallow: /css/
+Disallow: /logout/
+Disallow: /temp/
+
+Sitemap: https://nehs-ai.github.io/index.html
